@@ -4,10 +4,12 @@ function External() {
     return (
         <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1>
             External
           </h1>
+          <p>
+              LinkedIn: https://www.linkedin.com/in/maxwellbruckhaus/ <br></br>
+          </p>
         </header>
       </div>
     );

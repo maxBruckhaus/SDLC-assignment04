@@ -4,10 +4,12 @@ function Home() {
     return (
         <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1>
-            Home
+            Maxwell Bruckhaus
           </h1>
+          <p>
+              Welcome to my profile page!
+          </p>
         </header>
       </div>
     );
