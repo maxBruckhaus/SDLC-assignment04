@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-
 function External() {
     return (
         <div className="App">
