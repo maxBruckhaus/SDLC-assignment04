@@ -1,7 +1,7 @@
 import './App.css';
 import {
   BrowserRouter as Router,
-  Routes,
+  Switch,
   Route,
   Link
 } from "react-router-dom";
@@ -14,12 +14,12 @@ function App() {
     <Router>
       <div>
         <div className="menu">
-          <Link to="/welcome">Home</Link>  
+          <Link to="/">Home</Link>  
           <Link to="/about">About</Link> 
           <Link to="/external">External</Link>
         </div>
-        <Routes>
-          <Route path="/welcome">
+        <Switch>
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/about">
@@ -28,7 +28,7 @@ function App() {
           <Route path="/external">
             <External />
           </Route>
-        </Routes>
+        </Switch>
       </div>
     </Router>
   );
